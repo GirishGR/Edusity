@@ -31,8 +31,8 @@ background: #212EA0;
 
 .slider ul{
   display: flex;
-  width: 200%;
-  overflow-x:hidden ;
+  width: 250%;
+  overflow-x:hidden;
   transform: 0.5s;
   /* transform: translateX(-25%); */
 }

@@ -6,6 +6,7 @@ import user1 from '../../Assests/user-1.png'
 import user2 from '../../Assests/user-2.png'
 import user3 from '../../Assests/user-3.png'
 import user4 from '../../Assests/user-4.png'
+import Girish from '../../Assests/Girish.jpg'
 
 
 const Testimonial = () => {
@@ -15,14 +16,14 @@ let tx = 0;
 
 const slideForward = ()=>{
     if(tx > -50){
-      tx-=25;
+      tx-=20;
     }
     slider.current.style.transform = `translateX(${tx}%)`
 }
 
 const slideBackword = () =>{
   if(tx < 0){
-    tx+=25;
+    tx+=20;
   }
   slider.current.style.transform = `translateX(${tx}%)`
 }
@@ -80,6 +81,20 @@ const slideBackword = () =>{
                 <div className="slide">
                   <div className='userInfo'>
                     <img src={user4} alt="" />
+                    <div>
+                      <h3>Adam</h3>
+                      <span>Edusity, USA</span>
+                    </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid sequi nulla totam sapiente, unde illo voluptatum? Omnis doloribus nam excepturi hic iusto cum exercitationem, iste, a officiis dolores quae est.</p>
+                
+                </div>
+              </li>
+
+              <li>
+                <div className="slide">
+                  <div className='userInfo'>
+                    <img src={Girish} alt="" style={{height:'65px'}}/>
                     <div>
                       <h3>Girish</h3>
                       <span>Edusity, USA</span>
